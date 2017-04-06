@@ -1,13 +1,20 @@
 
 {
   "name": "Part-Up",
-  "short_name": "part-up",
+  "short_name": "Part-Up",
   "theme_color": "#3aaab3",
   "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
   "start_url": "/",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.partup.app"
+      }
+   ],
    "icons": [
     {
      "src": "android-icon-36x36.png",
