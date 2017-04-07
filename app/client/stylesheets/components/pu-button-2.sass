@@ -12,6 +12,7 @@
     line-height: 1em
     text-decoration: none
     font-weight: bold
+    transition: 0.2s
 
     i, span
         vertical-align: middle
@@ -23,6 +24,10 @@
     > span
         margin-left: 3px
         margin-right: 3px
+
+    &:hover, &:active, &:focus
+        transition: 0.2s
+        background-color: darken($color-secondary, 7%)
 
     &--secondary
         background-color: $color-primary
